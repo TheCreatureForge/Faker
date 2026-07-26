@@ -1,30 +1,20 @@
 using System;
 using UnityEngine;
+using UnityEngine.EventSystems;
 
-public class Drag : MonoBehaviour
+public class Drag : MonoBehaviour, IDragHandler
 {
-    private bool dragging = false;
-    private Vector3 offset;
+    public RectTransform window;
+    Canvas canvas;
 
-    void Update()
+    void Awake()
     {
-        if (dragging)
-        {
-            Debug.Log("WE IN HERE");
-            transform.position = Camera.main.ScreenToWorldPoint(Input.mousePosition);
-
-        }
+        canvas = GetComponentInParent<Canvas>();
     }
 
-    private void OnMouseDown()
+    public void OnDrag(PointerEventData e)
     {
-        offset = transform.position - Camera.main.ScreenToWorldPoint(Input.mousePosition);
-        dragging = true;
-    }
-
-    private void OnMouseUp()
-    {
-        dragging = false;
+        window.anchoredPosition += e.delta / canvas.scaleFactor;
     }
 
 
