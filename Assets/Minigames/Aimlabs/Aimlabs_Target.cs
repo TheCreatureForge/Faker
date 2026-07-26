@@ -19,6 +19,11 @@ public class Aimlabs_Target : MonoBehaviour
         Break();
     }
 
+    public void RegisterHit()
+    {
+        Break();
+    }
+
     void Break()
     {
         Destroy(gameObject);
