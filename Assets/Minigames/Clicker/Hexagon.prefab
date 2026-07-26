@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!1 &1035674601891030802
+--- !u!1 &14297680673985396
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -8,38 +8,38 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1353840758815212612}
-  - component: {fileID: 3615902131883512308}
-  m_Layer: 3
-  m_Name: TriangleSprite
+  - component: {fileID: 6561240321905505358}
+  - component: {fileID: 5178095428631237927}
+  m_Layer: 0
+  m_Name: HexagonSprite
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1353840758815212612
+--- !u!4 &6561240321905505358
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1035674601891030802}
+  m_GameObject: {fileID: 14297680673985396}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.5, y: 0.5, z: 1}
+  m_LocalScale: {x: 0.75, y: 0.75, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1605782880357233598}
+  m_Father: {fileID: 7319482762894922989}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!212 &3615902131883512308
+--- !u!212 &5178095428631237927
 SpriteRenderer:
   serializedVersion: 2
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1035674601891030802}
+  m_GameObject: {fileID: 14297680673985396}
   m_Enabled: 1
   m_CastShadows: 0
   m_ReceiveShadows: 0
@@ -81,17 +81,17 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_MaskInteraction: 0
-  m_Sprite: {fileID: 7482667652216324306, guid: 75f5f34dc1b5347e0b8351032682f224, type: 3}
-  m_Color: {r: 0.6491168, g: 1, b: 0.4575472, a: 1}
+  m_Sprite: {fileID: -2135585597343286014, guid: 5aa8b770bc43046bc8d993d0d5b7f4a5, type: 3}
+  m_Color: {r: 0.5424528, g: 0.7984091, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.8828125, y: 1}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
   m_WasSpriteAssigned: 1
   m_SpriteSortPoint: 0
---- !u!1 &4226989160204283041
+--- !u!1 &5101329153659896165
 GameObject:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -99,66 +99,67 @@ GameObject:
   m_PrefabAsset: {fileID: 0}
   serializedVersion: 6
   m_Component:
-  - component: {fileID: 1605782880357233598}
-  - component: {fileID: 7674398176922094510}
-  - component: {fileID: 7050761712374615213}
-  - component: {fileID: 6047683657733112918}
-  m_Layer: 3
-  m_Name: Triangle
-  m_TagString: Clicker_Triangle
+  - component: {fileID: 7319482762894922989}
+  - component: {fileID: 9177705721277366557}
+  - component: {fileID: 2029222068897928428}
+  - component: {fileID: 8814110879604532059}
+  m_Layer: 0
+  m_Name: Hexagon
+  m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!4 &1605782880357233598
+--- !u!4 &7319482762894922989
 Transform:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4226989160204283041}
+  m_GameObject: {fileID: 5101329153659896165}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 1.84, y: -2.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1353840758815212612}
+  - {fileID: 6561240321905505358}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &7674398176922094510
+--- !u!114 &9177705721277366557
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4226989160204283041}
+  m_GameObject: {fileID: 5101329153659896165}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 577deca41f62d524ca80f6881b4c5bdc, type: 3}
+  m_Script: {fileID: 11500000, guid: d378965b64111f140b039cc0e3ed47bf, type: 3}
   m_Name: 
-  m_EditorClassIdentifier: Assembly-CSharp::Clicker_Triangle
-  rotationSpeed: 0
-  triangleSprite: {fileID: 1035674601891030802}
-  projectile: {fileID: 4201229855587941847, guid: ce5630254b2b29a4caf74a08ee0dccef, type: 3}
-  projectileSpeed: 7
---- !u!58 &7050761712374615213
+  m_EditorClassIdentifier: Assembly-CSharp::Clicker_Hexagon
+  hexagonSprite: {fileID: 14297680673985396}
+  projectileCount: 5
+  projectile: {fileID: 4201229855587941847, guid: 47a77f2c40efb0c4daf7d48571ad9a48, type: 3}
+  projectileSpeed: 5
+  attackInterval: 2
+--- !u!58 &2029222068897928428
 CircleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4226989160204283041}
+  m_GameObject: {fileID: 5101329153659896165}
   m_Enabled: 1
   serializedVersion: 3
   m_Density: 1
-  m_Material: {fileID: 6200000, guid: a124f09e2a756eb43954ebe54b22d8f8, type: 2}
+  m_Material: {fileID: 0}
   m_IncludeLayers:
     serializedVersion: 2
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 64
+    m_Bits: 72
   m_LayerOverridePriority: 0
   m_ForceSendLayers:
     serializedVersion: 2
@@ -177,15 +178,15 @@ CircleCollider2D:
   m_CompositeOperation: 0
   m_CompositeOrder: 0
   m_Offset: {x: 0, y: 0}
-  m_Radius: 0.3
---- !u!50 &6047683657733112918
+  m_Radius: 0.4
+--- !u!50 &8814110879604532059
 Rigidbody2D:
   serializedVersion: 5
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4226989160204283041}
+  m_GameObject: {fileID: 5101329153659896165}
   m_BodyType: 0
   m_Simulated: 1
   m_UseFullKinematicContacts: 0
@@ -200,7 +201,7 @@ Rigidbody2D:
     m_Bits: 0
   m_ExcludeLayers:
     serializedVersion: 2
-    m_Bits: 0
+    m_Bits: 8
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0

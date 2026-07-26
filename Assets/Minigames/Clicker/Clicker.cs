@@ -23,6 +23,8 @@ public class Clicker : Minigame
         Instance = this;
     }
 
+
+
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -34,8 +36,8 @@ public class Clicker : Minigame
     // Update is called once per frame
     void Update()
     {
-        scoreTextLabel.text = "" + currentMoney;
-        CPSTextLabel.text = "" + CalculateCPS().ToString("F1");
+        scoreTextLabel.text = "$" + currentMoney;
+        CPSTextLabel.text = "" + CalculateCPS().ToString("F1") + "/S";
     }
 
     void snapshotSecond()
@@ -65,5 +67,4 @@ public class Clicker : Minigame
     {
         currentMoney -= amountOfMoney;
     }
-
 }
