@@ -8,5 +8,17 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+  - enabled: 1
+    path: Assets/Minigames/Aimlabs/Aimlabs.unity
+    guid: b8140eb90080da14bba60e67ef7c783e
+  - enabled: 1
+    path: Assets/Minigames/Clicker/Clicker.unity
+    guid: 68060ca2135cfc84a861299f7252161f
+  - enabled: 1
+    path: Assets/Minigames/Typing/Typing.unity
+    guid: 32f34c5715512ca4d88b5e93b752aff7
+  - enabled: 1
+    path: Assets/VDesktop/Desktop.unity
+    guid: 10db149d36104fa4eaad02b05d676e1d
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
